@@ -1,4 +1,5 @@
-The page that we see on the browser, is being served from htdocs/dashboard (index.html) in the XAMPP directory.
-Therefore, for every project, we need to create a new directory in htdocs.
+So let's create our first PHP file. We will call it index.php.
+PHP has tags just like HTML. They are <?php and ?>, everything will be between these tags. 
+Let's add type hello world in our file, we do that using echo.
 
-video #2
+video #3
