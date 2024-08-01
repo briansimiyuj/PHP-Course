@@ -2,4 +2,6 @@ So let's create our first PHP file. We will call it index.php.
 PHP has tags just like HTML. They are <?php and ?>, everything will be between these tags. 
 Let's add type hello world in our file, we do that using echo.
 
+If we inspect the page, we see HTML code yet we requested index.php. This is because the server process PHP and then sends the output to the browser as HTML.
+
 video #3
