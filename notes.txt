@@ -4,4 +4,8 @@ Let's add type hello world in our file, we do that using echo.
 
 If we inspect the page, we see HTML code yet we requested index.php. This is because the server process PHP and then sends the output to the browser as HTML.
 
+We can also write PHP code in HTML as shown in index.php.
+
+Always end PHP statements with a semicolon.
+
 video #3
