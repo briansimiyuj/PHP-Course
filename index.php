@@ -1,8 +1,14 @@
 <?php
 
-    $myFavoriteSeries = "Blood and Water";
+    $myFavoriteSeries  = "Blood And Water";
 
-    echo $myFavoriteSeries[0];
+    // echo strlen("Hello World");
+
+    // echo strtoupper("Hello World");
+
+    // echo strtolower("HELLO WORLD");
+
+    echo str_replace('Blood And Water', 'Single Kiasi', $myFavoriteSeries);
 
 ?>
 

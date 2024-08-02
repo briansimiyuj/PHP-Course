@@ -1,3 +1,6 @@
-
+strlen() finds the length of a string
+strtoupper() converts a string to uppercase 
+strtolower() converts a string to lowercase
+str_replace replaces a string with another string
 
 video 5
