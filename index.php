@@ -1,12 +1,6 @@
 <?php
 
-    $myName = 'Brian Simiyu';
-    $age = 28;
-
-    $myName = 'Brian';
-    $age = 29;
-
-    echo $myName;
+    define('myName', 'Juma');
 
 ?>
 
@@ -23,18 +17,7 @@
 
         <?php
         
-            echo $myName;
-        
-        ?>
-
-    </h1>
-
-
-    <h1>
-
-        <?php
-        
-            echo $age;
+            echo myName;
         
         ?>
 

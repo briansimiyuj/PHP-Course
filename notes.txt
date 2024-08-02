@@ -1,10 +1,3 @@
-We declare variables with $ sign. 
-Variables must contain a letter or underscore, but they can't contain a number or special characters.
-We can use carmelCase naming convention for variables.
-To access a variable, we can call it by saying echo $variableName;
-We can also access the variable inside HTML tags.
-
-We can override the value of a variable 
-
+We declare constant variables with define() function. define('constantName', ${constantValue}) 
 
 video 4
