@@ -4,4 +4,7 @@ We can use carmelCase naming convention for variables.
 To access a variable, we can call it by saying echo $variableName;
 We can also access the variable inside HTML tags.
 
+We can override the value of a variable 
+
+
 video 4

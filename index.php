@@ -3,6 +3,9 @@
     $myName = 'Brian Simiyu';
     $age = 28;
 
+    $myName = 'Brian';
+    $age = 29;
+
     echo $myName;
 
 ?>
