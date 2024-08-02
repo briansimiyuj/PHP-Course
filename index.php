@@ -1,3 +1,12 @@
+<?php
+
+    $myName = 'Brian Simiyu';
+    $age = 28;
+
+    echo $myName;
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +20,18 @@
 
         <?php
         
-            echo "Hello World";
+            echo $myName;
+        
+        ?>
+
+    </h1>
+
+
+    <h1>
+
+        <?php
+        
+            echo $age;
         
         ?>
 
