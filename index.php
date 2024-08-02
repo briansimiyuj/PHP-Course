@@ -1,6 +1,14 @@
 <?php
 
-    define('myName', 'Juma');
+    $stringOne = 'My email is ';
+    $stringTwo = 'johndoe@email.com';
+
+    // echo $stringOne.$stringTwo;
+
+
+    $name = 'John';
+
+    echo 'Hey, my name is '.$name;
 
 ?>
 
@@ -13,15 +21,5 @@
 </head>
 <body>
     
-    <h1>
-
-        <?php
-        
-            echo myName;
-        
-        ?>
-
-    </h1>
-
 </body>
 </html>
