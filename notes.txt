@@ -1,3 +1,3 @@
-If we want to type what someone said like a quote in a string, we can escape the quotation marks by using a backslash as shown in index.php ln 3
+
 
 video 5

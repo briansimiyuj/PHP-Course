@@ -1,6 +1,8 @@
 <?php
 
-    echo "My favourite series is \"Blood and Water\""
+    $myFavoriteSeries = "Blood and Water";
+
+    echo $myFavoriteSeries[0];
 
 ?>
 
