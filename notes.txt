@@ -1,4 +1,4 @@
-We can join two variables by concatenation (index.php ln 6).
-We can concatenate strings with variables (index.php ln 11).
+When we use double quotes, we can access the variables value inside the string. This is called variable interpolation.
+If we try to use single quotes, it will output the variable name instead of the value.
 
 video 5

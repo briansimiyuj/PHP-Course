@@ -1,14 +1,8 @@
 <?php
 
-    $stringOne = 'My email is ';
-    $stringTwo = 'johndoe@email.com';
+    $name = 'Brian';
 
-    // echo $stringOne.$stringTwo;
-
-
-    $name = 'John';
-
-    echo 'Hey, my name is '.$name;
+    echo 'My name is $name';
 
 ?>
 
