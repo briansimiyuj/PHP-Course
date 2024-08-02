@@ -1,8 +1,6 @@
 <?php
 
-    $name = 'Brian';
-
-    echo 'My name is $name';
+    echo "My favourite series is \"Blood and Water\""
 
 ?>
 

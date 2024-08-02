@@ -1,4 +1,3 @@
-When we use double quotes, we can access the variables value inside the string. This is called variable interpolation.
-If we try to use single quotes, it will output the variable name instead of the value.
+If we want to type what someone said like a quote in a string, we can escape the quotation marks by using a backslash as shown in index.php ln 3
 
 video 5
