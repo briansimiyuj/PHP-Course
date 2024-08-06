@@ -1,14 +1,7 @@
 <?php
 
-    $myFavoriteSeries  = "Blood And Water";
-
-    // echo strlen("Hello World");
-
-    // echo strtoupper("Hello World");
-
-    // echo strtolower("HELLO WORLD");
-
-    echo str_replace('Blood And Water', 'Single Kiasi', $myFavoriteSeries);
+    $radius = 25;
+    $pi = 3.14
 
 ?>
 

@@ -1,6 +1,4 @@
-strlen() finds the length of a string
-strtoupper() converts a string to uppercase 
-strtolower() converts a string to lowercase
-str_replace replaces a string with another string
+There are two types of numbers in PHP: integers and floats.
+Integers are whole numbers, while floats are decimal numbers.
 
-video 5
+video #6
