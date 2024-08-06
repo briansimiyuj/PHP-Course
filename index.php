@@ -7,7 +7,24 @@
     // echo $peopleTwo[2];
 
     $ages = array(20, 30, 40, 50);
-    print_r($ages);
+    // print_r($ages);
+
+    $ages[1] = 25;
+    // print_r($ages);
+
+    $ages[] = 60;
+    // print_r($ages);
+
+    array_push($ages, 70);
+    // print_r($ages);
+
+    unset($ages[1]);
+    // print_r($ages);
+
+    // echo count($ages);
+
+    $peopleThree = array_merge($peopleOne, $peopleTwo);
+    print_r($peopleThree);
 
 ?>
 
