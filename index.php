@@ -6,6 +6,9 @@
     $peopleTwo = array('John', 'Jane', 'Mark');
     // echo $peopleTwo[2];
 
+    $ages = array(20, 30, 40, 50);
+    print_r($ages);
+
 ?>
 
 <!DOCTYPE html>

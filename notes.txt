@@ -8,6 +8,8 @@ There are 3 types of arrays in PHP;
             $arrayName = [value1, value2, value3, ...] or
             $arrayName = array(value1, value2, value3, ...)
 
+        - if we want to access the whole array, we use print_r($arrayName) instead of echo $arrayName. print_r() is used to print the array in a readable format.
+
     2. Associative Array
     3. Multidimensional Array
 
