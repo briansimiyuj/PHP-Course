@@ -2,15 +2,17 @@
 
     $blogs =[
 
-        ['mario party', 'mario', 'lorem', 30],
-        ['mario kart cheats', 'toad', 'lorem', 25],
-        ['zelda hidden chests', 'link', 'lorem', 50]
+        ['title' => 'mario party', 'author' => 'mario', 'content' => 'lorem', 'likes' => 30],
+        ['title' => 'mario kart cheats', 'author' => 'toad', 'content' => 'lorem', 'likes' => 25],
+        ['title' => 'zelda hidden chests', 'author' => 'link', 'content' => 'lorem', 'likes' => 50]
 
     ];
+    
+    // echo $blogs[1]['title'];
+    // echo count($blogs);
 
-    // print_r($blogs); //prints out the entire $blogs array
-    // print_r($blogs[2]); //prints out the third array in the $blogs array
-    print_r($blogs[1][1]); //prints out the second element in the second array in the $blogs array
+    $blogs[] = ['title' => 'castle party', 'author' => 'peach', 'content' => 'lorem', 'likes' => 100];
+    print_r($blogs);
 
 ?>
 
