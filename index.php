@@ -1,20 +1,16 @@
 <?php
 
-   $ninjasOne = ['shaun'=> 'black', 'mario'=> 'orange', 'peach'=> 'pink'];
+    $blogs =[
 
-//    echo $ninjasOne['mario'];
+        ['mario party', 'mario', 'lorem', 30],
+        ['mario kart cheats', 'toad', 'lorem', 25],
+        ['zelda hidden chests', 'link', 'lorem', 50]
 
-   $ninjasTwo = array('browser'=> 'chrome', 'os'=> 'windows');
+    ];
 
-   $ninjasTwo['textEditor'] = 'vscode';
-
-//    print_r($ninjasTwo);
-
-    // echo count($ninjasTwo);
-
-    $ninjasThree = array_merge($ninjasOne, $ninjasTwo);
-
-    print_r($ninjasThree);
+    // print_r($blogs); //prints out the entire $blogs array
+    // print_r($blogs[2]); //prints out the third array in the $blogs array
+    print_r($blogs[1][1]); //prints out the second element in the second array in the $blogs array
 
 ?>
 

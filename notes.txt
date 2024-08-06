@@ -1,9 +1,6 @@
-2. Associative Arrays
+3. Multidimensional Arrays
 
-    - These are key value pairs
-    - We initialize them like this:
-        $arrayName = ['key' => 'value', 'key' => 'value', key => 'value'];
-    - We access the values like this:
-        $arrayName['key'];
+Multidimensional arrays are arrays within arrays.
 
-video #7
+
+video #8
