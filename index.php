@@ -12,7 +12,10 @@
     // echo count($blogs);
 
     $blogs[] = ['title' => 'castle party', 'author' => 'peach', 'content' => 'lorem', 'likes' => 100];
-    print_r($blogs);
+    // print_r($blogs);
+
+    $popped = array_pop($blogs);
+    print_r($popped);
 
 ?>
 
