@@ -1,7 +1,4 @@
-There are two types of numbers in PHP: integers and floats.
-Integers are whole numbers, while floats are decimal numbers.
-
-If we want to increase a number by 1, we can use the ++ operator
-If we want to decrease a number by 1, we can use the -- operator
-
+floor() takes in a number and rounds it down to the nearest integer
+ceil() takes in a number and rounds it up to the nearest integer
+pi() returns the value of pi
 video #6
