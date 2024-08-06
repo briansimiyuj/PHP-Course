@@ -1,21 +1,9 @@
-There are 3 types of arrays in PHP;
+2. Associative Arrays
 
-    1. Indexed Array 
-    
-        - this is the most common type of array, where each element is referenced by a number. For example, $peopleOne. We count from 0.
-        - to access the first element, we use $peopleOne[0]
-        - we can initialize an array by using the
-            $arrayName = [value1, value2, value3, ...] or
-            $arrayName = array(value1, value2, value3, ...)
-
-        - if we want to access the whole array, we use print_r($arrayName) instead of echo $arrayName. print_r() is used to print the array in a readable format.
-        - we can add elements to an array by using $arrayName[] = newValue. This adds the new value to the end of the array.
-        - similarly, we can add elements by using array_push($arrayName, newValue). This adds the new value to the end of the array.
-        - we can remove elements from an array by using unset($arrayName[index]). This removes the element at the specified index.
-        - we can count the number of elements in an array by using count($arrayName). This returns the number of elements in the array.
-        - we can merge two arrays by using array_merge($arrayName1, $arrayName2). This returns a new array with the elements of both arrays.
-
-    2. Associative Array
-    3. Multidimensional Array
+    - These are key value pairs
+    - We initialize them like this:
+        $arrayName = ['key' => 'value', 'key' => 'value', key => 'value'];
+    - We access the values like this:
+        $arrayName['key'];
 
 video #7
