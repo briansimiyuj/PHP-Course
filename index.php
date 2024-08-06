@@ -1,13 +1,10 @@
 <?php
 
-    $radius = 25;
-    $pi = 3.14;
+    $peopleOne = ['Kelvin', 'John', 'Jane'];
+    // echo $peopleOne[0];
 
-    // echo floor($pi);
-
-    // echo ceil($pi);
-
-    echo pi();
+    $peopleTwo = array('John', 'Jane', 'Mark');
+    // echo $peopleTwo[2];
 
 ?>
 

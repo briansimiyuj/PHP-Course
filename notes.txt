@@ -1,4 +1,14 @@
-floor() takes in a number and rounds it down to the nearest integer
-ceil() takes in a number and rounds it up to the nearest integer
-pi() returns the value of pi
-video #6
+There are 3 types of arrays in PHP;
+
+    1. Indexed Array 
+    
+        - this is the most common type of array, where each element is referenced by a number. For example, $peopleOne. We count from 0.
+        - to access the first element, we use $peopleOne[0]
+        - we can initialize an array by using the
+            $arrayName = [value1, value2, value3, ...] or
+            $arrayName = array(value1, value2, value3, ...)
+
+    2. Associative Array
+    3. Multidimensional Array
+
+video #7
