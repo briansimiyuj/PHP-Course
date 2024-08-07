@@ -2,9 +2,9 @@
 
     $ninjas = ['shaun', 'ryu', 'yoshi'];
 
-    for($i = 0; $i < count($ninjas); $i++){
+    foreach($ninjas as $ninja){
 
-        echo $ninjas[$i] . '<br />';
+        echo $ninja . '<br />';
         
     }
 
