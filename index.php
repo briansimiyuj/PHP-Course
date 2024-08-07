@@ -1,18 +1,24 @@
 <?php
 
-    $price = 20;
+    $products =[
 
-    if($price < 10){
+        ['name' => 'shiny star', 'price' => 20],
+        ['name' => 'green shell', 'price' => 10],
+        ['name' => 'red shell', 'price' => 15],
+        ['name' => 'gold coin', 'price' => 5],
+        ['name' => 'lightning bolt', 'price' => 40],
+        ['name' => 'banana skin', 'price' => 2]
 
-        echo "The condition is met";
+    ];
 
-    }elseif($price < 30){
 
-        echo "Elseif condition is me";
+    foreach($products as $product){
 
-    }else{
+        if($product['price'] > 15){
 
-        echo "The condition is not met";
+            echo $product['name'] . '<br />';
+
+        }
 
     }
 
