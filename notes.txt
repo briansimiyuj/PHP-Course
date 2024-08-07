@@ -1,3 +1,6 @@
-Loops
+Booleans
 
-video #9
+When we echo something to the browser, PHP will automatically convert the data type to a string.
+So if we echo a boolean, it will be converted to either "1" for true or "" for false. 
+
+video #10
