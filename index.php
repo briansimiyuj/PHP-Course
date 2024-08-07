@@ -1,18 +1,10 @@
 <?php
 
-    // echo 5 < 10; // This is true, therefore it will return 1
-
-    // echo 5 > 10; // This is false, therefore it will return nothing
-
-    // echo 5 == 10; // This is false, therefore it will return nothing
-
-    // echo 10 == 10; // This is true, therefore it will return 1
-
-    // echo 5 != 10; // This is true, therefore it will return 1
-
-    // echo 5 <= 5; // This is true, therefore it will return 1
-
-    echo 5 >= 5 // This is true, therefore it will return 1
+    // echo 'Brian' < 'Simiyu'; // This will return true because 'B' comes before 'S' in the alphabets
+    // echo 'Water' > 'Fire'; // This will return true because 'W' comes after 'F' in the alphabets
+    // echo 'brian' > 'Brian'; // This will return true because an uppercase letter is considered less than a lowercase letter
+    // echo 'Brian' > 'Brian'; // This will return false because both Brian are the same
+    echo 'Brian' == 'brian'; // This will return false because an uppercase letter is considered less than a lowercase letter`
 
 ?>
 
