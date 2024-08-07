@@ -1,11 +1,23 @@
 <?php
 
-    $ninjas = ['shaun', 'ryu', 'yoshi'];
+    $products =[
 
-    foreach($ninjas as $ninja){
+        ['name' => 'shiny star', 'price' => 20],
+        ['name' => 'green shell', 'price' => 10],
+        ['name' => 'red shell', 'price' => 15],
+        ['name' => 'gold coin', 'price' => 5],
+        ['name' => 'lightning bolt', 'price' => 40],
+        ['name' => 'banana skin', 'price' => 2]
 
-        echo $ninja . '<br />';
-        
+    ];
+
+
+    foreach($products as $product){
+
+        echo $product['name'] . ' - ' . $product['price'];
+
+        echo '<br />';
+
     }
 
 ?>
