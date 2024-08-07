@@ -10,15 +10,6 @@
         ['name' => 'banana skin', 'price' => 2]
 
     ];
-    
-    $i = 0;
-
-    while($i < count($products)){
-
-        echo $products[$i]['name'] . '<br />';
-        $i++;
-
-    };
 
 ?>
 
@@ -30,6 +21,25 @@
     <title>PHP Course</title>
 </head>
 <body>
+
+    <h1>Products</h1>
+
+    <ul>
+
+        <?php 
+        
+            foreach($products as $product){
+
+                echo "<h3>" . $product['name'] . "</h3>";
+
+                echo "<p>£" . $product['price'] . "</p>";
+
+            }
+
+        ?>
+
+    </ul>
+
     
 </body>
 </html>
