@@ -1,16 +1,20 @@
 <?php
 
-    // echo 5 == '5'; // this is true because it is a loose comparison
+    $price = 20;
 
-    // echo 5 === '5'; // this is false because it is a strict comparison
+    if($price < 10){
 
-    // echo true == '1'; // this is true because it is a loose comparison
+        echo "The condition is met";
 
-    // echo true === '1'; // this is false because it is a strict comparison
+    }elseif($price < 30){
 
-    // echo false == ''; // this is true because it is a loose comparison
+        echo "Elseif condition is me";
 
-    echo false === ''; // this is false because it is a strict comparison
+    }else{
+
+        echo "The condition is not met";
+
+    }
 
 ?>
 

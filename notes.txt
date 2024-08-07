@@ -1,4 +1,3 @@
-We use == for loose comparison
-We use === for strict comparison    
+Conditional Statements
 
-video #10
+video #11
