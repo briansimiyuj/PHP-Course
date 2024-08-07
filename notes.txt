@@ -1,8 +1,3 @@
-3. Multidimensional Arrays
+Loops
 
-Multidimensional arrays are arrays within arrays.
-
-To remove an element from an array, use the array_pop(arrayName). This returns the value of the removed element. Which is the last element in the array.
-
-
-video #8
+video #9

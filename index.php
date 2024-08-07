@@ -1,21 +1,12 @@
 <?php
 
-    $blogs =[
+    $ninjas = ['shaun', 'ryu', 'yoshi'];
 
-        ['title' => 'mario party', 'author' => 'mario', 'content' => 'lorem', 'likes' => 30],
-        ['title' => 'mario kart cheats', 'author' => 'toad', 'content' => 'lorem', 'likes' => 25],
-        ['title' => 'zelda hidden chests', 'author' => 'link', 'content' => 'lorem', 'likes' => 50]
+    for($i = 0; $i < count($ninjas); $i++){
 
-    ];
-    
-    // echo $blogs[1]['title'];
-    // echo count($blogs);
-
-    $blogs[] = ['title' => 'castle party', 'author' => 'peach', 'content' => 'lorem', 'likes' => 100];
-    // print_r($blogs);
-
-    $popped = array_pop($blogs);
-    print_r($popped);
+        echo $ninjas[$i] . '<br />';
+        
+    }
 
 ?>
 
