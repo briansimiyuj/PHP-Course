@@ -10,15 +10,15 @@
         ['name' => 'banana skin', 'price' => 2]
 
     ];
+    
+    $i = 0;
 
+    while($i < count($products)){
 
-    foreach($products as $product){
+        echo $products[$i]['name'] . '<br />';
+        $i++;
 
-        echo $product['name'] . ' - ' . $product['price'];
-
-        echo '<br />';
-
-    }
+    };
 
 ?>
 
