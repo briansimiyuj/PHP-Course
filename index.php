@@ -14,7 +14,14 @@
 
     foreach($products as $product){
 
-        if($product['price'] > 15){
+        /* if($product['price'] < 15 && $product['price'] > 2){
+
+            echo $product['name'] . '<br />';
+
+        } */
+
+        
+        if($product['price'] > 20 || $product['price'] < 10){
 
             echo $product['name'] . '<br />';
 
