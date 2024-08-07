@@ -1,8 +1,18 @@
 <?php
 
-    // echo true; // This will print 1
+    // echo 5 < 10; // This is true, therefore it will return 1
 
-    echo false; // This will print nothing  
+    // echo 5 > 10; // This is false, therefore it will return nothing
+
+    // echo 5 == 10; // This is false, therefore it will return nothing
+
+    // echo 10 == 10; // This is true, therefore it will return 1
+
+    // echo 5 != 10; // This is true, therefore it will return 1
+
+    // echo 5 <= 5; // This is true, therefore it will return 1
+
+    echo 5 >= 5 // This is true, therefore it will return 1
 
 ?>
 
