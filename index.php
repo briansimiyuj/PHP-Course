@@ -1,16 +1,9 @@
 <?php
 
-    $name = 'Brian';
-
-    function sayBye(&$name){
-
-        $name = 'Juma';
-
-    }
-
-    sayBye($name);
-    echo $name;
-
+    include("ninjas.php");
+    require("ninjas.php");
+    echo 'End of PHP';
+    
 ?>
 
 <!DOCTYPE html>
