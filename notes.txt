@@ -1,5 +1,2 @@
-Break allows us to stop the loop no matter what point we are in the loop. Refer to example in index.php. We used break when we reached lightning bolt. Therefore, the code will print out all the other $products except the lightning bolt and banana skin
-
-Continue allows us to skip the current iteration and move to the next one. In index.php, we use continue if the product price is greater than 15. This means the code will only print products with prices of 15 or less. The output will include green shell, red shell, and gold coin, but exclude shiny star, lightning bolt, and banana skin
-
-video #12
+Functions are blocks of code that can be executed to perform a specific task.
+They can be called multiple times 
