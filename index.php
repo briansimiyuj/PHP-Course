@@ -5,12 +5,16 @@
     function sayHello(){
 
         global $name;
+
+        $name = 'Simiyu';
         
-        echo "Hello $name";
+        // echo "Hello $name";
 
     }
 
     sayHello();
+
+    echo $name;
 
 ?>
 
