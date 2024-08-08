@@ -11,6 +11,19 @@
 
     ];
 
+    
+    foreach($products as $product){
+
+        if($product['name'] === 'lightning bolt'){
+            
+            break;
+
+        }
+
+        echo $product['name'] . '<br />';
+
+    }
+
 
 ?>
 
@@ -23,22 +36,5 @@
 </head>
 <body>
 
-    <div>
-
-        <?php
-        
-            foreach($products as $product){
-
-                if($product['price'] > 15){
-                    
-                    echo "<li>" . $product['name'] . "</li>";
-
-                }
-            }            
-            
-        ?>
-
-    </div>
-    
 </body>
 </html>
