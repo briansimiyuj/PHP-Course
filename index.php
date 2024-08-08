@@ -1,24 +1,16 @@
 <?php
 
-    function myFunc(){
+    $name = 'Brian';
 
-        $price = 10;
+    function sayHello(){
 
-        echo $price;
-
-    }
-
-    myFunc();
-
-    // echo $price; // Won't print $price
-
-    function myFuncTwo($age){
-
-        echo $age;
+        global $name;
+        
+        echo "Hello $name";
 
     }
 
-    myFuncTwo(25);
+    sayHello();
 
 ?>
 
