@@ -2,11 +2,13 @@
 
     function formatProduct($product){
 
-        echo "{$product['name']} costs $ {$product['price']} to buy <br />";
+        return "{$product['name']} costs $ {$product['price']} to buy <br />";
 
     }
 
-    formatProduct(['name' => 'gold star', 'price' => 20]);
+    $formatedPrduct = formatProduct(['name' => 'gold star', 'price' => 20]);
+
+    echo $formatedPrduct;
 
 ?>
 

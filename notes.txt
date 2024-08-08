@@ -1,8 +1,3 @@
-Functions are blocks of code that can be executed to perform a specific task.
-They can be called multiple times.
-We can pass arguments to functions.
-If we pass an argument to a function, we have to pass a value to that argument when we call the function.
-Or we can specify a default value for the argument, in this case, we don't have to pass a value to the argument when we call the function.
-But if we pass a value to the argument, it will override the default value.
+Sometimes functions return values, and we can store them in variables.
 
 video #13
