@@ -1,11 +1,3 @@
-<?php
-
-    // include("ninjasds.php");
-    require("ninjasds.php");
-    echo 'End of PHP';
-    
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +6,8 @@
     <title>PHP Course</title>
 </head>
 <body>
+
+    <?php include("content.php"); ?>
 
 </body>
 </html>
