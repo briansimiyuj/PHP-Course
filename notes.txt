@@ -1,6 +1,4 @@
-Global variables on the other hand are accessible from anywhere in the code.
-
-If we want to access the global variable $name in the function, we have to use the global keyword: as shown in index.php
-If we override the value of the global variable inside the function, the global variable will be affected.
+When we use an argument in a function, it automatically becomes a local variable. 
+In sayBye(), $name is a local variable, even though it declared on a global scope.
 
 video #14

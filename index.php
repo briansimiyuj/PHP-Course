@@ -2,18 +2,15 @@
 
     $name = 'Brian';
 
-    function sayHello(){
+    function sayBye($name){
 
-        global $name;
+        $name = 'Juma';
 
-        $name = 'Simiyu';
-        
-        // echo "Hello $name";
+        // echo "Bye $name";
 
     }
 
-    sayHello();
-
+    sayBye($name);
     echo $name;
 
 ?>
