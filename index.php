@@ -1,14 +1,24 @@
 <?php
 
-    function formatProduct($product){
+    function myFunc(){
 
-        return "{$product['name']} costs $ {$product['price']} to buy <br />";
+        $price = 10;
+
+        echo $price;
 
     }
 
-    $formatedPrduct = formatProduct(['name' => 'gold star', 'price' => 20]);
+    myFunc();
 
-    echo $formatedPrduct;
+    // echo $price; // Won't print $price
+
+    function myFuncTwo($age){
+
+        echo $age;
+
+    }
+
+    myFuncTwo(25);
 
 ?>
 

@@ -1,3 +1,9 @@
-Sometimes functions return values, and we can store them in variables.
+There are two types of variables in PHP: local and global.
 
-video #13
+Local variables can only be accessed within the function in which they are defined. Global variables, on the other hand, can be accessed from anywhere in the code.
+
+For example: $price in myFunc() is a local variable. That means we can only access it within the myFunc().
+
+The same goes for $age in myFuncTwo().
+
+video #14
