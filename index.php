@@ -20,6 +20,13 @@
 
         }
 
+
+        if($product['price'] > 15){
+
+            continue;
+
+        }
+
         echo $product['name'] . '<br />';
 
     }
