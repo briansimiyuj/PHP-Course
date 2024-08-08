@@ -2,11 +2,9 @@
 
     $name = 'Brian';
 
-    function sayBye($name){
+    function sayBye(&$name){
 
         $name = 'Juma';
-
-        // echo "Bye $name";
 
     }
 

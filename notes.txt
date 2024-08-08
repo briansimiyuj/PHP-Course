@@ -1,4 +1,5 @@
 When we use an argument in a function, it automatically becomes a local variable. 
 In sayBye(), $name is a local variable, even though it declared on a global scope.
+But if we want to change the value of a global variable inside a function, we need to add '&' on the argument.
 
 video #14
