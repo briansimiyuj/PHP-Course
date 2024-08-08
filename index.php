@@ -1,12 +1,12 @@
 <?php
 
-    function sayHello(){
+    function sayHello($name){
 
-        echo 'Good morning Brian';
+        echo 'Good morning '.$name.'<br>';
 
     }
 
-    sayHello();
+    sayHello('Mike');
 
 
 ?>

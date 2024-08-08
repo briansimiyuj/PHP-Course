@@ -1,2 +1,5 @@
 Functions are blocks of code that can be executed to perform a specific task.
-They can be called multiple times 
+They can be called multiple times.
+We can pass arguments to functions.
+
+video #13
