@@ -1,6 +1,7 @@
 <?php
 
-    include("ninjasds.php");
+    // include("ninjasds.php");
+    require("ninjasds.php");
     echo 'End of PHP';
     
 ?>
