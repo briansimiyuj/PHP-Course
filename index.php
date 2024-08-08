@@ -1,13 +1,12 @@
 <?php
 
-    function sayHello($name = 'Shaun'){
+    function formatProduct($product){
 
-        echo 'Good morning '.$name.'<br>';
+        echo "{$product['name']} costs $ {$product['price']} to buy <br />";
 
     }
 
-    sayHello('mario');
-
+    formatProduct(['name' => 'gold star', 'price' => 20]);
 
 ?>
 
