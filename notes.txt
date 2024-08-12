@@ -1,6 +1,10 @@
-We can send data to a server using two methods:
+GET method sends the data to the server in the URL.
 
-    GET - This sends the data as a parameter in the URL.
-    POST - This sends the data as a parameter in the body of the request.
+When we use GET method, we need to specify action attribute in form tag.
+
+This attribute points to the file where we want to send the data to. In this case, we are sending the data to the same file(add.php).
+
+Now when we submit our form, the data gets sent to the server, server will look for the file specified in the action attribute and execute it. 
+
 
 video #17

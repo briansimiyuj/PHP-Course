@@ -8,7 +8,7 @@
         <h4 class="center">Add a Pizza</h4>
 
 
-        <form class="white" action="" method="">
+        <form class="white" action="add.php" method="GET">
 
             <label for="email">Your Email:</label>
 
