@@ -1,7 +1,6 @@
-If we want to access external files we need to use include or require.
+We can send data to a server using two methods:
 
-When we use include, if the file is not found, we will get a warning but the script will continue to run.
+    GET - This sends the data as a parameter in the URL.
+    POST - This sends the data as a parameter in the body of the request.
 
-But if we use require, if the file is not found, we will get a fatal error and the script will stop.
-
-video #15
+video #17
