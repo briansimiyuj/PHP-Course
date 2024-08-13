@@ -6,5 +6,12 @@ This attribute points to the file where we want to send the data to. In this cas
 
 Now when we submit our form, the data gets sent to the server, server will look for the file specified in the action attribute and execute it. 
 
+When we load the specified file, we first need to check if there is any data being sent to the server. We do this by isset() method. This method checks if a variable is set or not.
 
-video #17
+$_GET is a global array that stores all the data sent to the server.
+When we submit our form, the submit event will be initialized in the $_GET array and have a value.
+
+When we submit our form, the URL will look like this: (`http://localhost:3000/PHP-course/add.php?email=johndoe%40gmail.com&title=John+Pizza&ingredients=Milk%2C+eggs%2C+wheat+floor&submit=submit)
+
+
+video #17 

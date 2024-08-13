@@ -1,3 +1,16 @@
+<?php
+
+    if(isset($_GET["submit"])){
+
+        echo $_GET["email"];
+        echo $_GET["title"];
+        echo $_GET["ingredients"];
+
+    }
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
