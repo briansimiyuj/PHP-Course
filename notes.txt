@@ -1,4 +1,5 @@
-POST method sends data when the data is hidden
+Sometimes hackers may use JavaScript to inject malicious code into the form. This is called a cross-site scripting (XSS) attack. 
 
+To prevent this, we use the htmlspecialchars() function to convert special characters to HTML entities. HTML entities are special codes that represent characters. For example, the less than sign (<) is represented by &lt;. 
 
-video #17 
+video #18
