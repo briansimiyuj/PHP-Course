@@ -1,9 +1,5 @@
-Form validation is a way to verify the data that a user enters into a form is valid.
+However, we cannot use filter_var() to validate title and ingredient. We need to use regular expression to validate them. Regular expression is a sequence of characters that forms a search pattern.
 
-We need to validate each field in our form. To do this, we use PHP's built-in filter_var() function.
+We use preg_match() to validate title and ingredient. preg_match() takes two arguments: the regular expression and the string to be matched. (`preg_match(${regular_expression}, ${string_to_be_matched})`)
 
-Let's check if the email is valid. 
-
-filter_var() takes two arguments: the data to be validated and the type of validation to be performed. `filter_var(${data}, ${TYPEOFVALIDATION});`
-
-video #19
+video #20
