@@ -1,3 +1,9 @@
 Form validation is a way to verify the data that a user enters into a form is valid.
 
+We need to validate each field in our form. To do this, we use PHP's built-in filter_var() function.
+
+Let's check if the email is valid. 
+
+filter_var() takes two arguments: the data to be validated and the type of validation to be performed. `filter_var(${data}, ${TYPEOFVALIDATION});`
+
 video #19

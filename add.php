@@ -9,36 +9,16 @@
             
         }else{
             
-            echo htmlspecialchars($_POST["email"]) . "<br />";
+            $email = $_POST["email"];
+
+            if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+
+                echo "Email must be a valid email address";
+
+            }
 
         }
-
-
-        // Check Title
-
-        if(empty($_POST["title"])){
-
-            echo "A title is required <br />";
-
-        }else{
-
-            echo htmlspecialchars($_POST["title"]) . "<br />";
-
-        }
-
-
-        // Check Ingredients
-
-        if(empty($_POST["ingredients"])){
-
-            echo "At least one ingredient is required <br />";
-
-        }else{
-
-            echo htmlspecialchars($_POST["ingredients"]) . "<br />";
-
-        }
-
+        
         // End of POST check
 
     }
