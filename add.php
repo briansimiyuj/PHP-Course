@@ -2,9 +2,44 @@
 
     if(isset($_POST["submit"])){
 
-        echo htmlspecialchars($_POST["email"]);
-        echo htmlspecialchars($_POST["title"]);
-        echo htmlspecialchars($_POST["ingredients"]);
+        // Check Email
+        if(empty($_POST["email"])){
+
+            echo "An email is required <br />";
+            
+        }else{
+            
+            echo htmlspecialchars($_POST["email"]) . "<br />";
+
+        }
+
+
+        // Check Title
+
+        if(empty($_POST["title"])){
+
+            echo "A title is required <br />";
+
+        }else{
+
+            echo htmlspecialchars($_POST["title"]) . "<br />";
+
+        }
+
+
+        // Check Ingredients
+
+        if(empty($_POST["ingredients"])){
+
+            echo "At least one ingredient is required <br />";
+
+        }else{
+
+            echo htmlspecialchars($_POST["ingredients"]) . "<br />";
+
+        }
+
+        // End of POST check
 
     }
 

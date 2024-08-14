@@ -1,5 +1,3 @@
-Sometimes hackers may use JavaScript to inject malicious code into the form. This is called a cross-site scripting (XSS) attack. 
+Form validation is a way to verify the data that a user enters into a form is valid.
 
-To prevent this, we use the htmlspecialchars() function to convert special characters to HTML entities. HTML entities are special codes that represent characters. For example, the less than sign (<) is represented by &lt;. 
-
-video #18
+video #19
