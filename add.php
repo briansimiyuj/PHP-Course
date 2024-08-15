@@ -60,13 +60,9 @@
         }
 
 
-        if(array_filter($errors)){
+        if(!array_filter($errors)){
 
-            echo 'errors in the form';
-
-        }else{
-
-            echo 'form is valid';
+            header("Location: index.php");
 
         }
 
