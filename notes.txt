@@ -1,5 +1,3 @@
-However, we cannot use filter_var() to validate title and ingredient. We need to use regular expression to validate them. Regular expression is a sequence of characters that forms a search pattern.
 
-We use preg_match() to validate title and ingredient. preg_match() takes two arguments: the regular expression and the string to be matched. (`preg_match(${regular_expression}, ${string_to_be_matched})`)
 
-video #20
+video #21

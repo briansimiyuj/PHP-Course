@@ -1,11 +1,13 @@
 <?php
 
+    $errors = array("email"=>'', "title"=>'', "ingredients"=>'');
+
     if(isset($_POST["submit"])){
 
         // Check Email
         if(empty($_POST["email"])){
 
-            echo "An email is required <br />";
+            $errors["email"] = 'An email is required <br />';
             
         }else{
             
@@ -13,7 +15,7 @@
 
             if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
 
-                echo "Email must be a valid email address";
+                $errors["email"] = 'Email must be a valid email address';
 
             }
 
@@ -23,7 +25,7 @@
         // Check Title
         if(empty($_POST["title"])){
 
-            echo "A title is required <br />";
+            $errors["title"] = 'A title is required <br />';
 
         }else{
 
@@ -31,7 +33,7 @@
 
             if(!preg_match('/^[a-zA-Z\s]+$/', $title)){
 
-                echo "Title must be letters and spaces only";
+                $errors["title"] = 'Title must be letters and spaces only';
 
             }
 
@@ -41,7 +43,7 @@
         // Check Ingredients
         if(empty($_POST["ingredients"])){
 
-            echo "At least one ingredient is required <br />";
+            $errors["ingredients"] = 'At least one ingredient is required <br />';
 
         }else{
 
@@ -49,7 +51,7 @@
 
             if(!preg_match('/^([a-zA-Z\s]+)(,\s*[a-zA-Z\s]*)*$/', $ingredients)){
 
-                echo "Ingredients must be a comma separated list";
+                $errors["ingredients"] = 'Ingredients must be a comma separated list';
 
             }
 
@@ -77,13 +79,19 @@
 
             <input type="text" name="email">
 
+            <div class="red-text"><?php echo $errors["email"]; ?></div>
+
             <label for="title">Pizza Title:</label>
 
             <input type="text" name="title">
             
+            <div class="red-text"><?php echo $errors["title"]; ?></div>
+            
             <label for="ingredients">Ingredients (comma separated):</label>
 
             <input type="text" name="ingredients">
+
+            <div class="red-text"><?php echo $errors["ingredients"]; ?></div>
 
 
             <div class="center">
