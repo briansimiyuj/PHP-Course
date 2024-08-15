@@ -1,3 +1,6 @@
+When a user submits the form, we need to check if there is any errors.
+If there are no errors, we need to redirect the user to another page (in this case, the homepage).
 
+array_filter() cycle through the array and return only the values that are true. Lets cycle through errors array, if there are no errors, it will return false. If there are errors, it will return true.
 
-video #21
+video #22

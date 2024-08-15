@@ -58,6 +58,20 @@
             }
 
         }
+
+
+        if(array_filter($errors)){
+
+            echo 'errors in the form';
+
+        }else{
+
+            echo 'form is valid';
+
+        }
+
+
+
         // End of POST check
 
     }
