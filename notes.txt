@@ -1,8 +1,7 @@
-When a user submits the form, we need to check if there is any errors.
-If there are no errors, we need to redirect the user to another page (in this case, the homepage).
+MySQL is a relaional database management system (RDBMS) that runs on a server.
+We use Strucured Query Language (SQL) to coomunicate with the database.
+MySQL use tables to store data.
+It can contain muiltiple tables.
+We can use foriegn keys to link tables together.
 
-array_filter() cycle through the array and return only the values that are true. Lets cycle through errors array, if there are no errors, it will return false. If there are errors, it will return true.
-
-To redirect the user to another page, we need to use the header() function. It takes the file path as a parameter set for Location.  
-
-video #22
+video #23
