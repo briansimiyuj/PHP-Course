@@ -1,3 +1,11 @@
-Creating a database in PHPMyAdmin interface
+We can connect to a database from our php script. But we need to create a user first.
+Check all for global privileges.    
 
-video #24
+We will connect to the database from index.php file.
+We can either use the mysqli or PDO. For now we will use the mysqli.
+
+mysqli_connect() has 4 parameters. mysqli_connect(${host}, ${user}, ${password}, ${database}).
+
+We need to check if the connection is successful or not.
+
+video #25
