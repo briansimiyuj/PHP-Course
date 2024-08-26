@@ -1,7 +1,1 @@
-MySQL is a relaional database management system (RDBMS) that runs on a server.
-We use Strucured Query Language (SQL) to coomunicate with the database.
-MySQL use tables to store data.
-It can contain muiltiple tables.
-We can use foriegn keys to link tables together.
-
-video #23
+Refer to https://www.youtube.com/watch?v=na4s3lwUAjA for MySQL configuration.
