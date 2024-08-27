@@ -37,7 +37,7 @@
         
             <div class="row">
             
-                <?php foreach($pizzas as $pizza){ ?>
+                <?php foreach($pizzas as $pizza): ?>
 
                         <div class="col s6 md3">
                         
@@ -56,7 +56,7 @@
 
                                         <ul>
 
-                                            <?php foreach(explode(',', $pizza['ingredients']) as $ingredient){ ?>
+                                            <?php foreach(explode(',', $pizza['ingredients']) as $ingredient): ?>
 
                                                 <li>
 
@@ -64,7 +64,7 @@
 
                                                 </li>
                                             
-                                            <?php } ?>
+                                            <?php endforeach; ?>
 
                                         </ul>
 
@@ -89,7 +89,18 @@
                         
                         </div>
 
-                <?php } ?>
+                <?php endforeach; ?>
+
+
+                <?php if(count($pizzas) >= 3): ?>
+
+                    <p>There are 3 or more pizzas</p>
+                   
+                <?php else: ?>
+
+                    <p>There are less than 3 pizzas</p>
+
+                <?php endif; ?>
             
             </div>
         

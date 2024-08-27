@@ -1,3 +1,1 @@
-explode() function splits a string into an array. it takes two arguments: the string to split and the character to split on. explode(${character}, ${string}). This returns an array of the words in the string.
-
-video #28
+video #29
