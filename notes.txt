@@ -1,5 +1,10 @@
  We can take the data we receive from our form and save it to a database. We also need to connect add.php to the database, like we did with the index.php file.
 
-Before we can save data to the database, we need to ensure that the data has no malicious code. We do this by mysqli_real_escape_string(). It takes two parameters, the connection and the data. 
+Before we can save data to the database, we need to ensure that the data has no malicious code. We do this by mysqli_real_escape_string(). It takes two parameters, the connection and the data.  
+
+We need to create a query to insert the data into the database:
+    `${query} = "INSERT INTO ${table_name} (${column_name(s)}) VALUES ('${data}')";`
+
+Then need to check if the query was successful: If the query was successful, the data has been saved to the database. Therefore, we need to redirect the user to the index.php file.
 
 video #30

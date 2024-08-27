@@ -68,7 +68,19 @@
             $title = mysqli_real_escape_string($conn, $_POST["title"]);
             $ingredients = mysqli_real_escape_string($conn, $_POST["ingredients"]);
 
-            header("Location: index.php");
+
+            $sql = "INSERT INTO pizzas(title, email, ingredients) VALUES('$title', '$email', '$ingredients')";
+
+
+            if(mysqli_query($conn, $sql)){
+
+                header("Location: index.php");
+
+            }else{
+
+                echo "Query error: " . mysqli_error($conn);
+
+            }
 
         }
 
