@@ -1,1 +1,3 @@
-video #29
+ We can take the data we receive from our form and save it to a database. We also need to connect add.php to the database, like we did with the index.php file.
+
+video #30
