@@ -23,10 +23,6 @@
 
     // close connection
     mysqli_close($conn);
-
-
-    explode(",", $pizzas[0]['ingredients']);
-
 ?>
 
 <!DOCTYPE html>
@@ -54,6 +50,25 @@
                                         <?php echo htmlspecialchars($pizza['title']); ?>
                                     
                                     </h6>           
+
+
+                                    <div>
+
+                                        <ul>
+
+                                            <?php foreach(explode(',', $pizza['ingredients']) as $ingredient){ ?>
+
+                                                <li>
+
+                                                    <?php echo htmlspecialchars($ingredient); ?>        
+
+                                                </li>
+                                            
+                                            <?php } ?>
+
+                                        </ul>
+
+                                    </div>
 
 
                                     <div>
