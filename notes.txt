@@ -1,11 +1,13 @@
-We can connect to a database from our php script. But we need to create a user first.
-Check all for global privileges.    
+We can get the data from the database using SQL queries:
 
-We will connect to the database from index.php file.
-We can either use the mysqli or PDO. For now we will use the mysqli.
+    1. Creating the query - This is where we define the query that we want to   execute. In this case, we want to get the title, ingredients and ID from the pizzas table.
+    
+    2. Make the query - This is where we execute the query. We do this by using mysqli_query() function. This has two parameters: mysqli_query(${connection}, ${query}).
 
-mysqli_connect() has 4 parameters. mysqli_connect(${host}, ${user}, ${password}, ${database}).
+    3. Fetch the results - This is where we fetch the results from the database. We do this by using mysqli_fetch_all() function. This has two parameters: mysqli_fetch_all(${result}, MYSQLI_ASSOC). This will return an array of associative arrays.
 
-We need to check if the connection is successful or not.
+    4. Free the results - This is where we free the results from the database. We do this by using mysqli_free_result() function. This has one parameter: mysqli_free_result(${result}).
 
-video #25
+    5. Close the connection - This is where we close the connection to the database. We do this by using mysqli_close() function. This has one parameter: mysqli_close(${connection}).
+
+video #26
