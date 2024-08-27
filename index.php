@@ -24,6 +24,9 @@
     // close connection
     mysqli_close($conn);
 
+
+    explode(",", $pizzas[0]['ingredients']);
+
 ?>
 
 <!DOCTYPE html>
