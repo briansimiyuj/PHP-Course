@@ -17,9 +17,7 @@
         mysqli_free_result($result);
 
         mysqli_close($conn);    
-
-        print_r($pizza);
-
+        
     }
 
 ?>
@@ -28,7 +26,27 @@
 
     <?php include "templates/header.php"; ?>
 
-    <h2>Details</h2>
+    <div class="container center grey-text">
+
+        <?php if($pizza): ?>
+
+            <h4><?php echo htmlspecialchars($pizza["title"]); ?></h4>
+
+            <p>Created by: <?php echo htmlspecialchars($pizza["email"]); ?></p>
+
+            <p><?php echo date($pizza["createdAt"]); ?></p>
+
+            <h5>Ingredients:</h5>
+
+            <p><?php echo htmlspecialchars($pizza["ingredients"]); ?></p>
+
+        <?php else: ?>
+
+            <h5>No such pizza exists!</h5>
+
+        <?php endif; ?>
+
+    </div>
 
     <?php include "templates/footer.php"; ?>
 
