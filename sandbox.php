@@ -1,11 +1,7 @@
 <?php
 
     $score = 50;
-
-    $score > 40 ? $message = "high score!" : $message = "low score :(";
     
-    echo $message;
-
 ?>
 
 <!DOCTYPE html>
@@ -16,6 +12,16 @@
     <title>PHP MySQL Course</title>
 </head>
 <body>
+
+    <h1>
+
+        <?php
+        
+            echo $score > 40 ? "You Passed" : "You Failed";
+        
+        ?>
+
+    </h1>
     
 </body>
 </html>
