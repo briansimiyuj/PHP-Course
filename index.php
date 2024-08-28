@@ -74,7 +74,7 @@
 
                                 <div class="card-action right-align">
                                 
-                                    <a href="#" class="brand-text">more info</a>
+                                    <a href="details.php?id=<?php echo $pizza['ID']; ?>" class="brand-text">more info</a>
                                 
                                 </div>
                             
