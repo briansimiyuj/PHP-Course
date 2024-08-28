@@ -1,10 +1,1 @@
-Let's now delete a pizza from the database.
-We need to make a form with a hidden field that contains the id of the pizza we want to delete. 
-We will use POST request to delete the pizza.
-
-
-    1. We first need to get the id of the hidden field.
-    2.  Then we make a query to delete the pizza.
-    3.  Then we check if the query was successful. If it was successful, we redirect to the home page.
-
-video #32
+video 34
