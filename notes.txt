@@ -1,11 +1,10 @@
-Now we want to display the details of a single pizza when we click on more info button. Let's create a new file called details.php.
+Let's now delete a pizza from the database.
+We need to make a form with a hidden field that contains the id of the pizza we want to delete. 
+We will use POST request to delete the pizza.
 
-To retreive the details of a pizza, we need to use GET method, since we are passing the id of the pizza on the file path.
 
-    Then let's check if the id is set on the GET array.
-    If it is set, we make a query to the database to get the details of the pizza.
-    This will return an array with the details of the pizza.
-    We can fetch the results as an associative array.
-    Then we free the result set and close the connection.
+    1. We first need to get the id of the hidden field.
+    2.  Then we make a query to delete the pizza.
+    3.  Then we check if the query was successful. If it was successful, we redirect to the home page.
 
-video #31
+video #32
