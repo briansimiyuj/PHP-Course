@@ -1,4 +1,6 @@
 Superglobal variables are special types of variables that are always prepopulated with values.
 Their format is ($GLOBALS['variableName']).
 
+We can use $_SERVER['PHP_SELF'] to get the name of the current script. And also use it as a value for the action attribute of a form.
+
 video 35
