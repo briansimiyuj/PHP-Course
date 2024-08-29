@@ -1,13 +1,2 @@
-Sessions are a way to store and transfer data between multiple pages during a single visit to a website. They store data on the server instead of the client.
-
-The way we do this is by:
-
-    1. Start a session with the session_start() function.
-    2. Store data to a session with the $_SESSION['key'] = 'value'; syntax.
-    3. Retrieve data from a session with the $_SESSION['key'] syntax. Make sure to start the session if you are on a different file.
-
-We can override the session variable within the same session.
-
-If we want to delete a session variable, we can use the unset() function. unset($_SESSION['key']);. We can also use the session_destroy() function to delete all session variables.
-
-video 36
+Null coalescing operator (??)   
+video 37
