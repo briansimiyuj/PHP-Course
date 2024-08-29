@@ -1,1 +1,4 @@
-video 34
+Superglobal variables are special types of variables that are always prepopulated with values.
+Their format is ($GLOBALS['variableName']).
+
+video 35

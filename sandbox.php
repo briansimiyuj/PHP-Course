@@ -1,6 +1,10 @@
 <?php
 
-    $score = 50;
+    echo $_SERVER['SERVER_NAME'] . "<br>"; // localhost 
+    echo $_SERVER['REQUEST_METHOD'] . "<br>"; // GET 
+    echo $_SERVER['SCRIPT_FILENAME'] . "<br>"; // C:\xampp\htdocs\php-course\sandbox.php
+    echo $_SERVER['PHP_SELF'] . "<br>"; // /php-course/sandbox.php
+
     
 ?>
 
@@ -13,15 +17,7 @@
 </head>
 <body>
 
-    <h1>
-
-        <?php
-        
-            echo $score > 40 ? "You Passed" : "You Failed";
-        
-        ?>
-
-    </h1>
+   
     
 </body>
 </html>
