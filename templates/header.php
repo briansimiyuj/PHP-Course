@@ -2,7 +2,13 @@
 
     session_start();
 
-    $_SESSION["name"] = 'Yvonne';
+    // $_SESSION["name"] = 'Yvonne';
+
+    if($_SERVER["QUERY_STRING"] === 'noname'){
+
+        unset($_SESSION["name"]);
+        
+    }
 
     $name = $_SESSION["name"];
 
