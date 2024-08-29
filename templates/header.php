@@ -1,3 +1,12 @@
+<?php
+
+    session_start();
+
+    $name = $_SESSION["name"];
+
+?>
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,6 +43,8 @@
             <ul id="nav-mobile" class="right hide-on-small-and-down">
 
                 <li><a href="add.php" class="btn brand z-depth-0">Add a Pizza</a></li>
+
+                <li class="grey-text">Hello <?php echo htmlspecialchars($name); ?></li>
 
             </ul>
 

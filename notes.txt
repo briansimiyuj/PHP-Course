@@ -1,6 +1,13 @@
-Superglobal variables are special types of variables that are always prepopulated with values.
-Their format is ($GLOBALS['variableName']).
+Sessions are a way to store and transfer data between multiple pages during a single visit to a website. They store data on the server instead of the client.
 
-We can use $_SERVER['PHP_SELF'] to get the name of the current script. And also use it as a value for the action attribute of a form.
+The way we do this is by:
 
-video 35
+    1. Start a session with the session_start() function.
+    2. Store data to a session with the $_SESSION['key'] = 'value'; syntax.
+    3. Retrieve data from a session with the $_SESSION['key'] syntax. Make sure to start the session if you are on a different file.
+
+We can override the session variable within the same session.
+
+If we want to delete a session variable, we can use the unset() function. unset($_SESSION['key']);. We can also use the session_destroy() function to delete all session variables.
+
+video 36

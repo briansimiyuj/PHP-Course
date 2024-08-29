@@ -1,10 +1,14 @@
 <?php
 
-    echo $_SERVER['SERVER_NAME'] . "<br>"; // localhost 
-    echo $_SERVER['REQUEST_METHOD'] . "<br>"; // GET 
-    echo $_SERVER['SCRIPT_FILENAME'] . "<br>"; // C:\xampp\htdocs\php-course\sandbox.php
-    echo $_SERVER['PHP_SELF'] . "<br>"; // /php-course/sandbox.php
+    if(isset($_POST ["submit"])){
 
+        session_start();
+
+        $_SESSION["name"] = $_POST["name"];
+
+        header("Location: index.php");
+
+    }
     
 ?>
 
@@ -17,7 +21,13 @@
 </head>
 <body>
 
-   
+    <form action="<?php echo $_SERVER["PHP_SELF"] ?>" method="POST">
+
+        <input type="text" name="name" placeholder="Enter your name">
+
+        <input type="submit" name="submit" value="submit">
+
+    </form>
     
 </body>
 </html>
