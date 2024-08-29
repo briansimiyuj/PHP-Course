@@ -2,6 +2,8 @@
 
     session_start();
 
+    $_SESSION["name"] = 'Yvonne';
+
     $name = $_SESSION["name"];
 
 ?>

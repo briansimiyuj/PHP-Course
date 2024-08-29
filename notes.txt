@@ -8,6 +8,4 @@ The way we do this is by:
 
 We can override the session variable within the same session.
 
-If we want to delete a session variable, we can use the unset() function. unset($_SESSION['key']);. We can also use the session_destroy() function to delete all session variables.
-
 video 36
