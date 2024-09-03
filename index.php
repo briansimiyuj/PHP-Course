@@ -1,7 +1,15 @@
 <?php
 
-    $brianBiography = readFile("README.md");
+    $file = "README.md";
 
-    echo $brianBiography;
+    if(file_exists($file)){
+
+        echo readFile($file);
+
+    }else{
+
+        echo "File does not exist";
+        
+    }
 
 ?>

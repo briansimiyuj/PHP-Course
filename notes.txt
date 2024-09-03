@@ -3,5 +3,6 @@ PHP can communicate with file system on a computer or server.
     1. To read a file, we use readFile(`${filePath/fileName.ext}`) function and pass the file name as a parameter. When we view on the browser, we will see the contents of the file and a number of bytes of the file.
 
     2. To check if a file exists, we use file_exists(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
+    
 
 video #39
