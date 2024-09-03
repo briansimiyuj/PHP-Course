@@ -1,18 +1,10 @@
 <?php
 
-    $file = "README.md";
+    $file = "Bio.md";
 
     if(file_exists($file)){
 
-        echo readFile($file) . "<br>" . "<br>";
-
-        copy($file, "Brian.md");
-
-        echo realPath($file) . "<br>" . "<br>";
-
-        echo fileSize($file) . "<br>" . "<br>";
-
-        rename($file, "Bio.md");
+        unlink($file);
 
     }else{
 

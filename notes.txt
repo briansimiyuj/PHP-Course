@@ -12,4 +12,6 @@ PHP can communicate with file system on a computer or server.
 
     6. To rename a file, we use rename(`${filePath/fileName.ext}`, `${filePath/newFileName.ext}`) function and pass the file path and the new file path as parameters.
 
+    7. To delete a file, we use unlink(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
+
 video #39
