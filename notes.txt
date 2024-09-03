@@ -14,4 +14,8 @@ PHP can communicate with file system on a computer or server.
 
     7. To delete a file, we use unlink(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
 
+    8. To create a directory, we use mkdir(`${filePath/directoryName}`) function and pass the directory path as a parameter.
+
+    9. To navigate to a directory, we use chdir(`${filePath/directoryName}`) function and pass the directory path as a parameter.
+
 video #39

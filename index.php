@@ -12,4 +12,8 @@
         
     }
 
+    mkdir("src");
+
+    chdir("src");
+
 ?>
