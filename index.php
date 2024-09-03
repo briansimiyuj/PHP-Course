@@ -12,6 +12,8 @@
 
         echo fileSize($file) . "<br>" . "<br>";
 
+        rename($file, "Bio.md");
+
     }else{
 
         echo "File does not exist";

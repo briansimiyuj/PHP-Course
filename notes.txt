@@ -10,4 +10,6 @@ PHP can communicate with file system on a computer or server.
 
     5. To get the file size, we use filesize(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
 
+    6. To rename a file, we use rename(`${filePath/fileName.ext}`, `${filePath/newFileName.ext}`) function and pass the file path and the new file path as parameters.
+
 video #39
