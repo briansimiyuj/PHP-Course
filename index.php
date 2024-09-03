@@ -8,7 +8,9 @@
 
         copy($file, "Brian.md");
 
-        echo realPath($file) . "<br>";
+        echo realPath($file) . "<br>" . "<br>";
+
+        echo fileSize($file) . "<br>" . "<br>";
 
     }else{
 

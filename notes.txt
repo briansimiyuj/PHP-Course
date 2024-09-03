@@ -8,4 +8,6 @@ PHP can communicate with file system on a computer or server.
 
     4. To get the absolute path of a file, we use realpath(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
 
+    5. To get the file size, we use filesize(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
+
 video #39
