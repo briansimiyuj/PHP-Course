@@ -4,5 +4,6 @@ PHP can communicate with file system on a computer or server.
 
     2. To check if a file exists, we use file_exists(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
     
+    3. To copy a file, we use copy(`${filePath/fileName.ext}`, `${filePath/newFileName.ext}`) function and pass the file path and the new file path as parameters.
 
 video #39
