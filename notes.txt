@@ -1,2 +1,9 @@
-Null coalescing operator (??)   
-video 37
+Cookies on the other hand, data is stored in the browser and not0 the server. Cookies are not cleared when the browser is closed; this means when a user visits your website again, the browser will send the cookies to the server to remind the server who the user is.
+
+We use setCookie() to create a cookie. it takes three parameters: the name of the cookie, the value of the cookie, and an optional time the cookie should be "alive" for. `setCookie($cookieName, $cookieValue, $cookieLifeTime);` 
+
+To use the cookie, we use the getCookie() function. It takes one parameter, the name of the cookie we want to retrieve. `getCookie($cookieName).
+
+We can override a cookie setting a new value for it.
+
+video #38
