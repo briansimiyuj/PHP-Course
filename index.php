@@ -16,4 +16,6 @@
 
     chdir("src");
 
+    touch("index.php");
+
 ?>
