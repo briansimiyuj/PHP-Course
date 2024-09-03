@@ -6,4 +6,6 @@ PHP can communicate with file system on a computer or server.
     
     3. To copy a file, we use copy(`${filePath/fileName.ext}`, `${filePath/newFileName.ext}`) function and pass the file path and the new file path as parameters.
 
+    4. To get the absolute path of a file, we use realpath(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
+
 video #39

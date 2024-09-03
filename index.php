@@ -4,9 +4,11 @@
 
     if(file_exists($file)){
 
-        echo readFile($file);
+        echo readFile($file) . "<br>" . "<br>";
 
         copy($file, "Brian.md");
+
+        echo realPath($file) . "<br>";
 
     }else{
 
