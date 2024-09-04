@@ -6,5 +6,6 @@
 
     fwrite($handle, "\n Brian loves his wives.");
 
+    fclose($handle);
     
 ?>

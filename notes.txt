@@ -12,4 +12,6 @@ PHP can communicate with file system on a computer or server.
 
         This will overwrite the first line of the file. If we want to append to the end of the file, we can use "a" mode.
 
+    6. To close a file, we can use fclose(${reference}). This closes the file and frees up any resources that were being used by the file.
+
 video #40
