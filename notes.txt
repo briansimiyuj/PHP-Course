@@ -1,25 +1,7 @@
 PHP can communicate with file system on a computer or server.
 
-    1. To read a file, we use readFile(`${filePath/fileName.ext}`) function and pass the file name as a parameter. When we view on the browser, we will see the contents of the file and a number of bytes of the file.
+    1. To open a file, use fopen(${filename}, ${"mode"}). ${mode} can be 'r' for read, 'w' for write, 'a' for append, 'x' for exclusive creation, 'c' for create or open for update, 't' for text mode, 'b' for binary mode, and '+'.
 
-    2. To check if a file exists, we use file_exists(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
-    
-    3. To copy a file, we use copy(`${filePath/fileName.ext}`, `${filePath/newFileName.ext}`) function and pass the file path and the new file path as parameters.
+    2. To read a file, we first need to reference the file with fopen() and assign it to a variable. Then, we can use fread(${reference}, ${length}) to read the file. ${length} is the number of bytes to read.    
 
-    4. To get the absolute path of a file, we use realpath(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
-
-    5. To get the file size, we use filesize(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
-
-    6. To rename a file, we use rename(`${filePath/fileName.ext}`, `${filePath/newFileName.ext}`) function and pass the file path and the new file path as parameters.
-
-    7. To delete a file, we use unlink(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
-
-    8. To create a directory, we use mkdir(`${filePath/directoryName}`) function and pass the directory path as a parameter.
-
-    9. To navigate to a directory, we use chdir(`${filePath/directoryName}`) function and pass the directory path as a parameter.
-
-    10. To get create a file, we use touch(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
-
-    11. To get the current working directory, we use getcwd() function.
-
-video #39
+video #40

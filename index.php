@@ -1,23 +1,11 @@
 <?php
 
-    $file = "Bio.md";
+    $file = "Brian.md";
 
-    if(file_exists($file)){
+    $handle = fopen($file, "r");
 
-        unlink($file);
+    // echo fread($handle, filesize($file));
 
-    }else{
-
-        echo "File does not exist";
-        
-    }
-
-    mkdir("src");
-
-    chdir("src");
-
-    touch("index.php");
-
-    echo getcwd();
+    echo fread($handle, 12); 
 
 ?>
