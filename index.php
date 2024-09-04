@@ -1,11 +1,16 @@
 <?php
 
-    $file = "Brian.md";
+    class User{
 
-    $handle = fopen($file, "a");
+        public $name;
+        public $email;
 
-    fwrite($handle, "\n Brian loves his wives.");
+        public function login(){
 
-    fclose($handle);
+            echo "User logged in";
+            
+        }
+
+    }
     
 ?>

@@ -1,17 +1,6 @@
-PHP can communicate with file system on a computer or server.
+A class is a blueprint for creating objects (a particular data structure). It describes the properties and methods that an object of its type will have.    
 
-    1. To open a file, use fopen(${filename}, ${"mode"}). ${mode} can be 'r' for read, 'w' for write, 'a' for append, 'x' for exclusive creation, 'c' for create or open for update, 't' for text mode, 'b' for binary mode, and '+'.
+Public methods and public properties are accessible from outside of the class.
+Private methods and private properties are only accessible from within the class.
 
-    2. To read a file, we first need to reference the file with fopen() and assign it to a variable. Then, we can use fread(${reference}, ${length}) to read the file. ${length} is the number of bytes to read.
-
-    3. To read a file line by line, we can use fgets(${reference}). If we use fgets(${reference}) again, it will read the next line. This is because of the file pointer. A file pointer is like a cursor that points to the current position in the file. 
-
-    4. To read a single character, we can use fgetc(${reference}). This reads the next character from the file pointer.
-
-    5. To write to a file, we can use fwrite(${reference}, ${string}). This writes the string to the file. First we need to open the file with fopen($file, "w"/"r+") with "w" or "r+" mode. Then we can use fwrite(${reference}, ${string}) to write to the file.
-
-        This will overwrite the first line of the file. If we want to append to the end of the file, we can use "a" mode.
-
-    6. To close a file, we can use fclose(${reference}). This closes the file and frees up any resources that were being used by the file.
-
-video #40
+video #41
