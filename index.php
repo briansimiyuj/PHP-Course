@@ -6,24 +6,26 @@
         public $email;
 
 
-        public function __construct(){
+        public function __construct($name, $email){
 
-            $this->name = 'Mario';
-            $this->email = 'mario@thenetninja.co.uk';
+            $this->name = $name;
+            $this->email = $email;
 
         }
 
         public function login(){
 
-            echo "User logged in";
+            echo $this->name . ' logged in';
             
         }
 
     }
 
 
-    $userOne = new User();
+    $userOne = new User('Brian', 'brian@thenetninja.co.uk');
 
+    echo $userOne->name .  "<br>";
+    echo $userOne->email . "<br>";
     $userOne->login();
     
 ?>
