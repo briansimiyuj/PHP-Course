@@ -8,4 +8,8 @@ PHP can communicate with file system on a computer or server.
 
     4. To read a single character, we can use fgetc(${reference}). This reads the next character from the file pointer.
 
+    5. To write to a file, we can use fwrite(${reference}, ${string}). This writes the string to the file. First we need to open the file with fopen($file, "w"/"r+") with "w" or "r+" mode. Then we can use fwrite(${reference}, ${string}) to write to the file.
+
+        This will overwrite the first line of the file.
+
 video #40

@@ -2,10 +2,9 @@
 
     $file = "Brian.md";
 
-    $handle = fopen($file, "r");
+    $handle = fopen($file, "r+");
 
-    echo fgets($handle);
+    fwrite($handle, "Brian is the best");
 
-    echo fgetc($handle);
-
+    
 ?>

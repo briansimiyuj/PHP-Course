@@ -1,4 +1,4 @@
-Brian Simiyu is a multi billionaire.
+Brian is the best multi billionaire.
 He is the founder of the TechFyBiz Groups of companies.
 He has many real estate properties in the US and Kenya.
 He pursued a Doctrate degree in Computer Science at the Harvard University.
