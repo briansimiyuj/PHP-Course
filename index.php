@@ -2,8 +2,8 @@
 
     class User{
 
-        public $name;
-        public $email;
+        private $name;
+        private $email;
 
 
         public function __construct($name, $email){
@@ -19,13 +19,18 @@
             
         }
 
+
+        public function getName(){
+
+            return $this->name;
+
+        }
+
     }
 
 
     $userOne = new User('Brian', 'brian@thenetninja.co.uk');
 
-    echo $userOne->name .  "<br>";
-    echo $userOne->email . "<br>";
-    $userOne->login();
+    echo $userOne->getName();
     
 ?>
