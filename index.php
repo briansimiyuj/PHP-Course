@@ -6,6 +6,6 @@
 
     echo fgets($handle);
 
-    echo fgets($handle);
+    echo fgetc($handle);
 
 ?>
