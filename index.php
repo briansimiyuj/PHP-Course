@@ -2,9 +2,9 @@
 
     $file = "Brian.md";
 
-    $handle = fopen($file, "r+");
+    $handle = fopen($file, "a");
 
-    fwrite($handle, "Brian is the best");
+    fwrite($handle, "\n Brian loves his wives.");
 
     
 ?>
