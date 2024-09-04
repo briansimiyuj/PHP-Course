@@ -4,8 +4,8 @@
 
     $handle = fopen($file, "r");
 
-    // echo fread($handle, filesize($file));
+    echo fgets($handle);
 
-    echo fread($handle, 12); 
+    echo fgets($handle);
 
 ?>
