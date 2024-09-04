@@ -3,4 +3,8 @@ A class is a blueprint for creating objects (a particular data structure). It de
 Public methods and public properties are accessible from outside of the class.
 Private methods and private properties are only accessible from within the class.
 
+Instantiation is the process of creating an object from a class. We use 'new' keyword to instantiate a class.
+
+$userOne will have access to the public properties and methods of the User class.
+
 video #41
