@@ -18,4 +18,6 @@
 
     touch("index.php");
 
+    echo getcwd();
+
 ?>

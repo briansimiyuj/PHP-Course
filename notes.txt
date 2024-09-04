@@ -20,4 +20,6 @@ PHP can communicate with file system on a computer or server.
 
     10. To get create a file, we use touch(`${filePath/fileName.ext}`) function and pass the file path as a parameter.
 
+    11. To get the current working directory, we use getcwd() function.
+
 video #39
