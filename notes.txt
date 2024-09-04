@@ -1,3 +1,4 @@
 Getters gives us the values of a property
+Setters gives us the ability to set a value of a property
 
 video #42
